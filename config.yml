@@ -2,8 +2,6 @@ baseURL: "https://onnyyonn.github.io/tilde/"
 title: Tilde
 paginate: 5
 theme: tilde
-# NOTE remove this line if you copy exampleSite outof hugo-PaperModX
-themesdir: ../..
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
