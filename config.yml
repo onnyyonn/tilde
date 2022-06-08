@@ -1,7 +1,7 @@
-baseURL: "https://reorx.github.io/hugo-PaperModX/"
-title: PaperModX
+baseURL: "https://onnyyonn.github.io/tilde/"
+title: Tilde
 paginate: 5
-theme: PaperModX
+theme: tilde
 # NOTE remove this line if you copy exampleSite outof hugo-PaperModX
 themesdir: ../..
 
@@ -14,7 +14,7 @@ enableEmoji: true
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
+  description: "Theme tilde - https://github.com/onnyyonn/tilde"
   author:
     - Reorx
   mainSections:
