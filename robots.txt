@@ -1,3 +1,1 @@
 User-agent: *
-Disallow:
-Sitemap: https://reorx.github.io/hugo-PaperModX/sitemap.xml
