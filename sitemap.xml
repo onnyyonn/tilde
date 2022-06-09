@@ -5,9 +5,6 @@
     <loc>https://onnyyonn.github.io/tilde/docs/papermodx-new-features/</loc>
     <lastmod>2022-04-12T23:37:00+08:00</lastmod>
   </url><url>
-    <loc>https://onnyyonn.github.io/tilde/docs/papermodx-new-features.zh/</loc>
-    <lastmod>2022-04-12T23:37:00+08:00</lastmod>
-  </url><url>
     <loc>https://onnyyonn.github.io/tilde/docs/icons_preview/</loc>
     <lastmod>2022-04-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -22,18 +19,6 @@
   </url><url>
     <loc>https://onnyyonn.github.io/tilde/</loc>
     <lastmod>2022-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/tags/markdown/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/posts/markdown-syntax.zh/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/posts/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/tags/syntax/</loc>
-    <lastmod>2022-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://onnyyonn.github.io/tilde/docs/faq/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
@@ -53,7 +38,19 @@
     <loc>https://onnyyonn.github.io/tilde/docs/variables/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://onnyyonn.github.io/tilde/tags/markdown/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://onnyyonn.github.io/tilde/posts/katex/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://onnyyonn.github.io/tilde/posts/markdown-syntax/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://onnyyonn.github.io/tilde/posts/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://onnyyonn.github.io/tilde/tags/syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://onnyyonn.github.io/tilde/tags/privacy/</loc>
@@ -77,16 +74,10 @@
     <loc>https://onnyyonn.github.io/tilde/docs/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://onnyyonn.github.io/tilde/archives/</loc>
-  </url><url>
     <loc>https://onnyyonn.github.io/tilde/categories/</loc>
   </url><url>
     <loc>https://onnyyonn.github.io/tilde/search/</loc>
   </url><url>
     <loc>https://onnyyonn.github.io/tilde/series/</loc>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/archives.zh/</loc>
-  </url><url>
-    <loc>https://onnyyonn.github.io/tilde/search.zh/</loc>
   </url>
 </urlset>
