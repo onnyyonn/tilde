@@ -18,24 +18,6 @@
     
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>https://onnyyonn.github.io/tilde/posts/katex/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://onnyyonn.github.io/tilde/posts/katex/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
-      <content:encoded><![CDATA[<h2 id="inline-mode">Inline Mode</h2>
-<p>Equation: (x^2 + y^2 = z^2)</p>
-<p>Equation: $x^2 + y^2 = z^2$</p>
-<p>Equation: \begin{math}x^2 + y^2 = z^2\end{math}</p>
-<h2 id="display-mode">Display mode</h2>
-<p>[x^2 + y^2 = z^2]</p>
-<p>\begin{displaymath}x^2 + y^2 = z^2\end{displaymath}</p>
-<p>\begin{equation}x^2 + y^2 = z^2\end{equation}</p>
-]]></content:encoded>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
       <link>https://onnyyonn.github.io/tilde/posts/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       

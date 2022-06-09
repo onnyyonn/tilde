@@ -5,14 +5,14 @@
     <link>https://onnyyonn.github.io/tilde/posts/</link>
     <description>Recent content in Posts on Tilde</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://onnyyonn.github.io/tilde/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://onnyyonn.github.io/tilde/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown Syntax Guide</title>
+      <title>Katex Examples</title>
       <link>https://onnyyonn.github.io/tilde/posts/katex/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
       <guid>https://onnyyonn.github.io/tilde/posts/katex/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <description>katex examples</description>
       <content:encoded><![CDATA[<h2 id="inline-mode">Inline Mode</h2>
 <p>Equation: (x^2 + y^2 = z^2)</p>
 <p>Equation: $x^2 + y^2 = z^2$</p>
