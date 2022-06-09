@@ -118,6 +118,9 @@ to show all the icons, check it out at: <a href="https://reorx.github.io/hugo-Pa
 <p>Equation: $x^2 + y^2 = z^2$</p>
 <p>Equation: \begin{math}x^2 + y^2 = z^2\end{math}</p>
 <h2 id="display-mode">Display mode</h2>
+<p>$$
+x^2 + y^2 = z^2
+$$</p>
 <p>[x^2 + y^2 = z^2]</p>
 <p>\begin{displaymath}x^2 + y^2 = z^2\end{displaymath}</p>
 <p>\begin{equation}x^2 + y^2 = z^2\end{equation}</p>
