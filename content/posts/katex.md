@@ -1,12 +1,10 @@
 ---
 author: "Hugo Authors"
-title: "Markdown Syntax Guide"
-date: "2019-03-11"
-description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
+title: "Katex Examples"
+date: "2022-06-08"
+description: "katex examples"
 tags:
-  - markdown
-  - syntax
-  - example
+  - katex
 ShowToc: false
 TocOpen: false
 math: true
