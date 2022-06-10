@@ -34,17 +34,17 @@ Example 1:
 
 Example 2:
 <script type="text/tikz">
-  \tikzstyle{process}=[draw, rectangle, rounded corners, fill=yellow!20, minimum width=3cm, minimum height=1cm]
-  \tikzstyle{decision}=[draw, diamond, fill=red!20, minimum width=4cm, aspect=2]
-  \tikzstyle{arrow}=[white, thick,->,>=stealth]
-  \node[process] (waking) at (0,0) {Wake up};
-  \node[decision] (day) at (0,-3) {Is it a weekday?};
-  \node[process] (up) at (0,-6) {Get out of bed};
-  \node[process] (sleep) at (5,-3) {Go back to sleep};
-  \draw[arrow] (waking) -- (day);
-  \draw[arrow] (day) -- node[anchor=east] {Yes} (up);
-  \draw[arrow] (day) --node[anchor=south] {No} (sleep);
-  \draw[arrow] (sleep) |- (waking);
+  \begin{tikzpicture}
+	  \draw (0,0) -- (12,0);
+	  \draw (0.2,1)node[left,font=\tiny] {$y=1$} -- (11.8,1);
+	  \draw (0.2,-1)node[left,font=\tiny] {$y=-1$} -- (11.8,-1); 
+	  \foreach \x in {0,0.5,...,12}{
+	    \draw (\x,-0.2)node [below,font=\tiny,] {\x} -- (\x,0.2) ;
+	  }
+	  \draw[ultra thick, red]
+	      (3,0) sin (4,1) cos (5,0) sin (6,-1) cos (7,0)
+	            sin (8,1) cos (9,0) sin (10,-1) cos (11,0);    
+  \end{tikzpicture}
 </script>
 
 
