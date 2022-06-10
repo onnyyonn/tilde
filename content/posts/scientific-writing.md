@@ -23,6 +23,7 @@ $$
 
 ## TikZ
 
+Example 1:
 <script type="text/tikz">
   \begin{tikzpicture}
     \filldraw[color=red!60, fill=red!5, very thick](-1,0) circle (1.5);
@@ -31,19 +32,19 @@ $$
   \end{tikzpicture}
 </script>
 
+Example 2:
 <script type="text/tikz">
-  \begin{tikzpicture}
-	  %Nodes
-	  \node[rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm]      (maintopic)                              {2};
-	  \node[circle, draw=green!60, fill=green!5, very thick, minimum size=7mm]     (uppercircle)       [above=of maintopic] {1};
-	  \noderectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm]       (rightsquare)       [right=of maintopic] {3};
-	  \node[circle, draw=green!60, fill=green!5, very thick, minimum size=7mm]     (lowercircle)       [below=of maintopic] {4};
-	  
-	  %Lines
-	  \draw[->] (uppercircle.south) -- (maintopic.north);
-	  \draw[->] (maintopic.east) -- (rightsquare.west);
-	  \draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
-  \end{tikzpicture}
+  \tikzstyle{process}=[draw, rectangle, rounded corners, fill=yellow!20, minimum width=3cm, minimum height=1cm]
+  \tikzstyle{decision}=[draw, diamond, fill=red!20, minimum width=4cm, aspect=2]
+  \tikzstyle{arrow}=[white, thick,->,>=stealth]
+  \node[process] (waking) at (0,0) {Wake up};
+  \node[decision] (day) at (0,-3) {Is it a weekday?};
+  \node[process] (up) at (0,-6) {Get out of bed};
+  \node[process] (sleep) at (5,-3) {Go back to sleep};
+  \draw[arrow] (waking) -- (day);
+  \draw[arrow] (day) -- node[anchor=east] {Yes} (up);
+  \draw[arrow] (day) --node[anchor=south] {No} (sleep);
+  \draw[arrow] (sleep) |- (waking);
 </script>
 
 
