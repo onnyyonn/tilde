@@ -7,7 +7,7 @@ tags:
   - katex
 ShowToc: false
 TocOpen: false
-math: true
+Katex: true
 ---
 
 ## Inline Mode
@@ -29,3 +29,5 @@ $$
 \begin{displaymath}x^2 + y^2 = z^2\end{displaymath}
 
 \begin{equation}x^2 + y^2 = z^2\end{equation}
+
+\begin{align}x^2 + y^2 = z^2\end{align}
