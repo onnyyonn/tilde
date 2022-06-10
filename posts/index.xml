@@ -24,6 +24,7 @@ $$</p>
 <p>[x^2 + y^2 = z^2]</p>
 <p>\begin{displaymath}x^2 + y^2 = z^2\end{displaymath}</p>
 <p>\begin{equation}x^2 + y^2 = z^2\end{equation}</p>
+<p>\begin{align}x^2 + y^2 = z^2\end{align}</p>
 ]]></content:encoded>
     </item>
     
