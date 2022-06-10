@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 08 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://onnyyonn.github.io/tilde/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Scientific writing</title>
+      <title>Scientific Writing</title>
       <link>https://onnyyonn.github.io/tilde/posts/scientific-writing/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
@@ -23,6 +23,11 @@ TikZ </description>
 x^2 + y^2 = z^2
 $$</p>
 <h2 id="tikz">TikZ</h2>
+<script type="text/tikz">
+  \begin{tikzpicture}
+    \draw (0,0) circle (1in);
+  \end{tikzpicture}
+</script>
 <script type="text/tikz">
   \begin{tikzpicture}[
   roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
