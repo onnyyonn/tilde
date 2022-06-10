@@ -125,24 +125,23 @@ $$</p>
 <h2 id="tikz">TikZ</h2>
 <script type="text/tikz">
   \begin{tikzpicture}
-    \draw (0,0) circle (1in);
+    \filldraw[color=red!60, fill=red!5, very thick](-1,0) circle (1.5);
+    \draw[blue, very thick] (0,0) rectangle (3,2);
+    \draw[orange, ultra thick] (4,0) -- (6,0) -- (5.7,2) -- cycle;
   \end{tikzpicture}
 </script>
 <script type="text/tikz">
-  \begin{tikzpicture}[
-  roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
-  squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
-  ]
-  %Nodes
-  \node[squarednode]      (maintopic)                              {2};
-  \node[roundnode]        (uppercircle)       [above=of maintopic] {1};
-  \node[squarednode]      (rightsquare)       [right=of maintopic] {3};
-  \node[roundnode]        (lowercircle)       [below=of maintopic] {4};
-  
-  %Lines
-  \draw[->] (uppercircle.south) -- (maintopic.north);
-  \draw[->] (maintopic.east) -- (rightsquare.west);
-  \draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
+  \begin{tikzpicture}
+	  %Nodes
+	  \node[rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm]      (maintopic)                              {2};
+	  \node[circle, draw=green!60, fill=green!5, very thick, minimum size=7mm]     (uppercircle)       [above=of maintopic] {1};
+	  \noderectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm]       (rightsquare)       [right=of maintopic] {3};
+	  \node[circle, draw=green!60, fill=green!5, very thick, minimum size=7mm]     (lowercircle)       [below=of maintopic] {4};
+	  
+	  %Lines
+	  \draw[->] (uppercircle.south) -- (maintopic.north);
+	  \draw[->] (maintopic.east) -- (rightsquare.west);
+	  \draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
   \end{tikzpicture}
 </script>
 ]]></content:encoded>
