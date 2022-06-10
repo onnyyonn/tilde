@@ -107,24 +107,39 @@ to show all the icons, check it out at: <a href="https://reorx.github.io/hugo-Pa
     </item>
     
     <item>
-      <title>Katex Examples</title>
-      <link>https://onnyyonn.github.io/tilde/posts/katex/</link>
+      <title>Scientific writing</title>
+      <link>https://onnyyonn.github.io/tilde/posts/scientific-writing/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://onnyyonn.github.io/tilde/posts/katex/</guid>
-      <description>katex examples</description>
-      <content:encoded><![CDATA[<h2 id="inline-mode">Inline Mode</h2>
-<p>Equation: (x^2 + y^2 = z^2)</p>
+      <guid>https://onnyyonn.github.io/tilde/posts/scientific-writing/</guid>
+      <description>Katex Inline Mode Equation: $x^2 + y^2 = z^2$
+Display mode $$ x^2 + y^2 = z^2 $$
+TikZ </description>
+      <content:encoded><![CDATA[<h2 id="katex">Katex</h2>
+<h3 id="inline-mode">Inline Mode</h3>
 <p>Equation: $x^2 + y^2 = z^2$</p>
-<p>Equation: \begin{math}x^2 + y^2 = z^2\end{math}</p>
-<h2 id="display-mode">Display mode</h2>
+<h3 id="display-mode">Display mode</h3>
 <p>$$
 x^2 + y^2 = z^2
 $$</p>
-<p>[x^2 + y^2 = z^2]</p>
-<p>\begin{displaymath}x^2 + y^2 = z^2\end{displaymath}</p>
-<p>\begin{equation}x^2 + y^2 = z^2\end{equation}</p>
-<p>\begin{align}x^2 + y^2 = z^2\end{align}</p>
+<h2 id="tikz">TikZ</h2>
+<script type="text/tikz">
+  \begin{tikzpicture}[
+  roundnode/.style={circle, draw=green!60, fill=green!5, very thick, minimum size=7mm},
+  squarednode/.style={rectangle, draw=red!60, fill=red!5, very thick, minimum size=5mm},
+  ]
+  %Nodes
+  \node[squarednode]      (maintopic)                              {2};
+  \node[roundnode]        (uppercircle)       [above=of maintopic] {1};
+  \node[squarednode]      (rightsquare)       [right=of maintopic] {3};
+  \node[roundnode]        (lowercircle)       [below=of maintopic] {4};
+  
+  %Lines
+  \draw[->] (uppercircle.south) -- (maintopic.north);
+  \draw[->] (maintopic.east) -- (rightsquare.west);
+  \draw[->] (rightsquare.south) .. controls +(down:7mm) and +(right:7mm) .. (lowercircle.east);
+  \end{tikzpicture}
+</script>
 ]]></content:encoded>
     </item>
     
